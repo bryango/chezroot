@@ -1,0 +1,11 @@
+[Trigger]
+Operation = Install
+Operation = Upgrade
+Type = Package
+Target = nutstore
+#
+[Action]
+Description = [etc-hook] disable webui to prevent UI issues
+When = PostTransaction
+Depends = sed
+Exec = /usr/bin/sed -i -E 's/^(.*webui\.enable).*/\1=false/' /opt/nutstore/conf/nutstore.properties

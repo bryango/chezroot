@@ -1,0 +1,11 @@
+[Trigger]
+Operation = Install
+Operation = Upgrade
+Type = Package
+Target = nethogs
+#
+[Action]
+Description = [etc-hook] setcap such that nethogs can run w/o root
+When = PostTransaction
+Depends = libcap
+Exec = /usr/bin/setcap "cap_net_admin,cap_net_raw+pe" /usr/bin/nethogs
