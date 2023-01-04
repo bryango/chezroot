@@ -1,0 +1,9 @@
+[Unit]
+Description=custom superuser startup script
+After=suspend.target hibernate.target
+
+[Service]
+ExecStart=/usr/local/sbin/su-startup
+
+[Install]
+WantedBy=multi-user.target suspend.target hibernate.target

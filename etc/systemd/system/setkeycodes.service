@@ -1,0 +1,19 @@
+[Service]
+Type=oneshot
+
+# <https://wiki.archlinux.org/title/map_scancodes_to_keycodes>
+#
+# usage: setkeycodes [scancode] [keycode]
+# ... [scancode] from: sudo dmesg --follow
+# ... [keycode]  from: xmodmap -pke
+#
+# BUT, note that Xorg keycodes are 8 larger than Linux keycodes
+#
+# <https://wiki.archlinux.org/title/Keyboard_input#Identifying_keycodes_in_Xorg>
+# <https://wiki.archlinux.org/title/Xmodmap>
+#
+ExecStart=/usr/bin/setkeycodes e02c 163
+ExecStart=/usr/bin/setkeycodes e03b 149
+
+[Install]
+WantedBy=multi-user.target
