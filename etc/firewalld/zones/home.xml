@@ -8,5 +8,6 @@
   <service name="dhcpv6-client"/>
   <service name="tailscale"/>
   <service name="bittorrent-lsd"/>
+  <service name="transmission-client"/>
   <forward/>
 </zone>
