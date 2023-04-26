@@ -4,5 +4,7 @@
   <description>Unsolicited incoming network packets are dropped. Incoming packets that are related to outgoing network connections are accepted. Outgoing network connections are allowed.</description>
   <service name="tailscale"/>
   <service name="bittorrent-lsd"/>
+  <service name="kdeconnect"/>
+  <service name="gsconnect"/>
   <forward/>
 </zone>

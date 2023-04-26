@@ -9,6 +9,7 @@
   <service name="tailscale"/>
   <service name="bittorrent-lsd"/>
   <service name="transmission-client"/>
+  <service name="gsconnect"/>
   <service name="kdeconnect"/>
   <forward/>
 </zone>
