@@ -1,2 +1,0 @@
--A exclude,always -F exe=/usr/bin/crond
--A exclude,always -F exe=/usr/lib/gdm-session-worker
