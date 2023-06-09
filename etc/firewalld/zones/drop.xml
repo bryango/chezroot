@@ -6,5 +6,6 @@
   <service name="bittorrent-lsd"/>
   <service name="kdeconnect"/>
   <service name="gsconnect"/>
+  <service name="airplay"/>
   <forward/>
 </zone>

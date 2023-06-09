@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<service>
+  <description>https://support.apple.com/en-us/HT202944
+https://github.com/FDH2/UxPlay</description>
+  <port port="554" protocol="tcp"/>
+  <port port="554" protocol="udp"/>
+  <port port="3689" protocol="tcp"/>
+  <port port="5353" protocol="udp"/>
+  <port port="7100" protocol="tcp"/>
+  <port port="7011" protocol="udp"/>
+  <port port="7000-7001" protocol="tcp"/>
+  <port port="6000-6001" protocol="udp"/>
+</service>
