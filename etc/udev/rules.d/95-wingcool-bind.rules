@@ -1,0 +1,1 @@
+ACTION=="bind", SUBSYSTEM=="usb", ATTR{manufacturer}=="WingCool Inc.", ATTR{idProduct}=="0858", ATTR{idVendor}=="27c6", ATTR{serial}=="9LQ0172005164", RUN+="/usr/local/sbin/su-wingcool-bind"

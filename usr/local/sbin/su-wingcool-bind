@@ -1,0 +1,9 @@
+#!/bin/bash
+# wingcool bind action
+# ... see: /etc/udev/rules.d/95-drm-change.rules
+
+sudo --user=bryan \
+  /home/bryan/apps/utils/wingcool-bind.sh \
+  &>> /tmp/wingcool-bind.log
+
+# vim: ft=bash:
