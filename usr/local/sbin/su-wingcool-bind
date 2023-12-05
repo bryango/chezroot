@@ -3,7 +3,7 @@
 # ... see: /etc/udev/rules.d/95-drm-change.rules
 
 sudo --user=bryan \
-  /home/bryan/apps/utils/wingcool-bind.sh \
+  /home/bryan/.nix-profile/bin/xinput-wingcool-bind \
   &>> /tmp/wingcool-bind.log
 
 # vim: ft=bash:
