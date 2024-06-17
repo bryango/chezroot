@@ -11,5 +11,14 @@
   <service name="transmission-client"/>
   <service name="kdeconnect"/>
   <service name="airplay"/>
+  <service name="dhcp"/>
+  <service name="dhcpv6"/>
+  <service name="dns"/>
+  <port port="7236" protocol="tcp"/>
+  <protocol value="icmp"/>
+  <protocol value="ipv6-icmp"/>
+  <rule priority="32767">
+    <reject/>
+  </rule>
   <forward/>
 </zone>
