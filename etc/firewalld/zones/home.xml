@@ -14,6 +14,7 @@
   <service name="dhcp"/>
   <service name="dhcpv6"/>
   <service name="dns"/>
+  <service name="samba"/>
   <port port="7236" protocol="tcp"/>
   <protocol value="icmp"/>
   <protocol value="ipv6-icmp"/>
