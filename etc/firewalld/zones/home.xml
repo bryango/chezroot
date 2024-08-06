@@ -16,6 +16,8 @@
   <service name="dns"/>
   <service name="samba"/>
   <port port="7236" protocol="tcp"/>
+  <port port="27926" protocol="tcp"/>
+  <port port="27926" protocol="udp"/>
   <protocol value="icmp"/>
   <protocol value="ipv6-icmp"/>
   <rule priority="32767">
